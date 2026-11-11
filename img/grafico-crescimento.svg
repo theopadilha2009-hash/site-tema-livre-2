@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="300" viewBox="0 0 480 300" role="img">
+  <title>Gráfico de barras crescente</title>
+  <rect width="480" height="300" fill="#f4f7fb"/>
+  <line x1="50" y1="250" x2="440" y2="250" stroke="#334155" stroke-width="3"/>
+  <line x1="50" y1="40" x2="50" y2="250" stroke="#334155" stroke-width="3"/>
+  <rect x="80" y="210" width="50" height="40" fill="#93c5fd"/>
+  <rect x="160" y="180" width="50" height="70" fill="#60a5fa"/>
+  <rect x="240" y="140" width="50" height="110" fill="#3b82f6"/>
+  <rect x="320" y="90" width="50" height="160" fill="#2563eb"/>
+  <polyline points="105,200 185,170 265,130 345,80" fill="none" stroke="#f97316" stroke-width="4"/>
+  <circle cx="345" cy="80" r="8" fill="#f97316"/>
+</svg>
