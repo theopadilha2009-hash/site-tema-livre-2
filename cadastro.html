@@ -21,6 +21,98 @@
       </nav>
     </header>
     <main id="conteudo">
+      <h1>Cadastro para o Demo Day</h1>
+      <p>Preencha o formulário para inscrever a sua ideia de startup no Demo Day escolar. Os campos marcados com asterisco (*) são obrigatórios. Este formulário é um exercício: nada é enviado para nenhum servidor.</p>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Dados pessoais</legend>
+          <p>
+            <label for="nome">Nome completo *</label>
+            <input type="text" id="nome" name="nome" autocomplete="name" required>
+          </p>
+          <p>
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </p>
+          <p>
+            <label for="telefone">Telefone com DDD</label>
+            <input type="tel" id="telefone" name="telefone" autocomplete="tel" pattern="\(?\d{2}\)?\s?9?\d{4}-?\d{4}" title="Digite o telefone com DDD, por exemplo (41) 99999-9999">
+          </p>
+          <p>
+            <label for="nascimento">Data de nascimento *</label>
+            <input type="date" id="nascimento" name="nascimento" autocomplete="bday" required>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Sobre a sua startup</legend>
+          <p>
+            <label for="nome-startup">Nome da startup</label>
+            <input type="text" id="nome-startup" name="nome_startup" autocomplete="organization">
+          </p>
+          <p>
+            <label for="setor">Setor *</label>
+            <select id="setor" name="setor" required>
+              <option value="">Escolha um setor</option>
+              <option value="educacao">Educação</option>
+              <option value="saude">Saúde</option>
+              <option value="financas">Finanças</option>
+              <option value="alimentacao">Alimentação</option>
+            </select>
+          </p>
+          <p>
+            <label for="equipe">Pessoas na equipe (1 a 50)</label>
+            <input type="number" id="equipe" name="equipe" min="1" max="50" value="1">
+          </p>
+          <p>
+            <label for="captado">Valor já captado, em reais</label>
+            <input type="number" id="captado" name="captado" min="0" step="0.01" placeholder="0,00">
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Em que fase está a ideia? *</legend>
+          <p>
+            <input type="radio" id="fase-ideia" name="fase" value="ideia" required>
+            <label for="fase-ideia">Só a ideia</label>
+          </p>
+          <p>
+            <input type="radio" id="fase-prototipo" name="fase" value="prototipo">
+            <label for="fase-prototipo">Protótipo (MVP)</label>
+          </p>
+          <p>
+            <input type="radio" id="fase-clientes" name="fase" value="clientes">
+            <label for="fase-clientes">Já tem clientes</label>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferências e confirmação</legend>
+          <p>Quero receber:</p>
+          <p>
+            <input type="checkbox" id="pref-mentoria" name="preferencias" value="mentoria">
+            <label for="pref-mentoria">Convite para mentorias</label>
+          </p>
+          <p>
+            <input type="checkbox" id="pref-novidades" name="preferencias" value="novidades">
+            <label for="pref-novidades">Novidades do Demo Day</label>
+          </p>
+          <p>
+            <label for="ideia">Conte a sua ideia em poucas palavras (até 300 caracteres)</label>
+            <textarea id="ideia" name="ideia" rows="5" cols="40" maxlength="300"></textarea>
+          </p>
+          <p>
+            <input type="checkbox" id="aceite" name="aceite" value="sim" required>
+            <label for="aceite">Li e aceito participar do Demo Day, ciente de que os dados são fictícios *</label>
+          </p>
+        </fieldset>
+
+        <p>
+          <button type="submit">Enviar cadastro</button>
+          <button type="reset">Limpar formulário</button>
+        </p>
+      </form>
     </main>
     <footer>
       <p>Theo Lorentz Padilha — DSM3-2025 — 2026</p>
