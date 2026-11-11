@@ -41,11 +41,13 @@ Baixe ou clone o repositório e abra o arquivo `index.html` no navegador. Não �
 
 ## Imagens
 
-Todas são SVGs de autoria própria, em `img/`, feitas à mão para este trabalho e de uso livre em contexto escolar:
+Fotos reais do Wikimedia Commons, carregadas por link (não ficam salvas no repositório):
 
-- `equipe-ideia.svg`: três pessoas ao redor de uma mesa com uma lâmpada.
-- `grafico-crescimento.svg`: gráfico de barras crescente.
-- `divisor-foguete.svg`: enfeite decorativo (foguete).
+- Figura 1: [Startup Weekend Recife](https://commons.wikimedia.org/wiki/File:Startup_Weekend_Recife_-_Recife_-_Pernambuco_-_Brasil.jpg), de Lailson Bandeira, licença CC BY 2.0.
+- Figura 2: [Web Summit 2018, Pitch Stage 2](https://commons.wikimedia.org/wiki/File:Web_Summit_2018_-_Pitch_Stage_2_-_Day_2,_November_7_HM1_8188_(44858039785).jpg), de Web Summit, licença CC BY 2.0.
+- Imagem decorativa (`alt=""`): [Falcon 9 em Vandenberg](https://commons.wikimedia.org/wiki/File:2016_Falcon_9_at_Vandenberg_Air_Force_Base.jpg), de SpaceX, domínio público (CC0).
+
+Como as fotos vêm da internet, é preciso estar conectado para vê-las.
 
 ## Decisões de semântica
 
